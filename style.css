@@ -65,6 +65,7 @@ body{font-family: 'Montserrat', sans-serif;}
     color: #000;
 }
 
+
 #ProfileSummary{
     
 }
@@ -83,6 +84,7 @@ body{font-family: 'Montserrat', sans-serif;}
     font-size: 14px;
     color: #000;
 }
+
 
 #education h3 {
     border: 1px solid #d3d3d3;
@@ -223,3 +225,22 @@ body{font-family: 'Montserrat', sans-serif;}
 .Linux {width: 70%; background-color: #f321e2;}
 .iot {width: 90%; background-color: #62f436;}
 .aws {width: 90%; background-color: #0c0c0c;}
+
+#declarations{
+    
+}
+
+#declarations h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#declarations p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
