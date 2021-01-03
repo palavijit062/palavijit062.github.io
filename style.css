@@ -65,6 +65,25 @@ body{font-family: 'Montserrat', sans-serif;}
     color: #000;
 }
 
+#ProfileSummary{
+    
+}
+
+#ProfileSummary h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#ProfileSummary p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
 #education h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
@@ -133,22 +152,6 @@ body{font-family: 'Montserrat', sans-serif;}
       
 }
 
-/* #MasterCourses table tr.work-1 td:first-child {
-    width: 120px;
-    color: gray;
-    padding-bottom: 25px;
-}
-
-#MasterCourses table tr.work-1 td {
-    padding-bottom: 25px;
-}
-
-#MasterCourses table tr.work-2 td:first-child {
-    width: 120px;
-    color: gray;
-} */
-
-
 #bio-data h3 {
     border: 1px solid #d3d3d3;
     text-transform: uppercase;
@@ -170,3 +173,53 @@ body{font-family: 'Montserrat', sans-serif;}
 #bio-data table tr td:nth-child(2) {
     width: 300px;
 }
+
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#skills {
+    
+}
+
+#skills h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#skills p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+.skill {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.Algorithms {width: 40%; background-color: #4CAF50;}
+.Prolog {width: 62.5%; background-color: #2196F3;}
+.DataAnalysis {width: 65%; background-color: #f44336;}
+.Research {width: 60%; background-color: #808080;}
+.Interoperability {width: 45%; background-color: #212b21;}
+.ComputerNetworks {width: 47.5%; background-color: #f32160;}
+.ProjectManagement {width: 75%; background-color: #a86560;}
+.C {width: 50%; background-color: #808080;}
+.Java {width: 70%; background-color: #4CAF50;}
+.Python {width: 90%; background-color: #1d2329;}
+.R {width: 60%; background-color: #977c7a;}
+.Mas {width: 45%; background-color: #f35555;}
+.Web {width: 89%; background-color: #323b32;}
+.Linux {width: 70%; background-color: #f321e2;}
+.iot {width: 90%; background-color: #62f436;}
+.aws {width: 90%; background-color: #0c0c0c;}
